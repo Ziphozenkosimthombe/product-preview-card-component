@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL:[https://ziphozenkosimthombe.github.io/product-preview-card-component/]( https://ziphozenkosimthombe.github.io/product-preview-card-component/
+- Live Site URL:[https://ziphozenkosimthombe.github.io/product-preview-card-component/]( https://ziphozenkosimthombe.github.io/product-preview-card-component/)
 
 ## My process
 
