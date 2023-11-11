@@ -1,0 +1,104 @@
+:root{
+    --color-text-btn: hsl(158, 36%, 37%);
+    --color-bg: hsl(30, 38%, 92%);
+    --color-dark-blue: hsl(212, 21%, 14%);
+    --color-grayish-blue: hsl(228, 12%, 48%);
+    --color-white:  hsl(0, 0%, 100%);
+}
+
+
+body{
+    background-color: var(--color-bg);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+#paragraphs__container{
+    width: 15.625rem;
+    height: 24.375rem;
+    background-color: var(--color-white);
+    padding: 1.875rem 1.875rem;
+    border-radius: 0 1.563rem 1.563rem 0;
+}
+
+#container__divs{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+#image > img{
+    border-radius: 1.563rem 0 0 1.563rem;
+}
+p{
+    color: var(--color-grayish-blue);
+}
+
+.perfume{
+   text-transform: uppercase;
+}
+
+.span{
+    margin-left: 0.625rem;
+    text-decoration: line-through;
+    color: var(--color-grayish-blue);
+}
+#price__color{
+    color: var(--color-text-btn);
+    font-size: 1.563rem;
+    font-weight: 700;
+}
+
+#add__cart{
+    background-color: var(--color-text-btn);
+    width: 14.063rem;
+    height: 2.5rem;
+    margin-top: 1.25rem;
+    border-radius: 0.625rem;
+    box-shadow: var(--color-text-btn);
+    color:var(--color-white);
+    font-size: 0.875rem;
+    cursor: pointer;
+}
+#add__cart:hover{
+    opacity: 90%;
+    background-color: var(--color-dark-blue);
+}
+.attribution{
+    font-size: 0.875rem;
+    text-align: center;
+    font-weight: 700;
+    color: var(--color-grayish-blue);
+}
+.attribution a{
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 30rem){
+    body{
+        margin: 1.875rem;
+    }
+    #container__divs{
+        display: flex;
+        flex-direction: column;
+    }
+    #image > img{
+        border-radius: 1.25rem 1.25rem 0 0;
+    }
+    #paragraphs__container{
+        border-radius: 0 0 1.25rem 1.25rem;
+        height: 25rem;
+        width: 15rem;
+        position: absolute;
+        top:70%;    
+    }
+    .attribution{
+        position: absolute;
+        top: 165%;
+
+    }
+}
